@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>HomeLoan</title> 
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<style>
+  
+.btn{
+    margin: 0px 10px;
+}
+
+.card-link{
+    margin:0px 20px;
+}
+
+</style>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Apna Bank</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="info.html">Home Loan <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Personal Loan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Education Loan</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More Loans
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Gold Loan</a>
+                    <a class="dropdown-item" href="#">Car Loan</a>
+                    <a class="dropdown-item" href="#">Two Wheeler Loans</a>
+                    <a class="dropdown-item" href="#">Loan Against Securities</a>
+                    <div class="dropdown-divider"></div>
+                </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="form.html">Apply Now</a>
+            </li>
+        </ul>
+        <a class="nav-link " href="login/login.html">
+            <img src="https://img.icons8.com/color/48/000000/test-account.png" / style="float:right;">
+        </a>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+<br><br><br>
+
+      <div class="container " style="background-color: rgb(216, 209, 209); padding:30px 30px; margin:40px auto;">
+        <h4>Home Loan EMI Calculator</h4><br>
+        <div class="row">
+          <div class="col-md-8">
+        <h6>Loan Amount   </h6> 
+        <div class="progress">
+         <div class="progress-bar" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">12</div>
+        </div> 
+        <h6>Tenure (months)   </h6> 
+        <div class="progress">
+           <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100</div>
+        </div>
+        <h6>Interest Rate   </h6> 
+        <div class="progress">
+           <div class="progress-bar" role="progressbar" style="width: 8.92%" aria-valuenow="8.92" aria-valuemin="0" aria-valuemax="100">8.92%</div>
+        </div><br><br>
+        <p  color:black; font-size: large;">Equated Monthly Installment (EMI) will be Rs. 781</p>
+       </div>
+
+
+       <div class="col-md-4" style="text-align: center;">
+         <h1></h1>
+        <div class="form-group mx-sm-3 mb-2" >
+          <label for="tb1" class="sr-only"></label>
+          <input type="number" class="form-control" id="loan amt" placeholder="Rs.100000"  style="text-align: center;">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+          <label for="tb1" class="sr-only"></label>
+          <input type="number" class="form-control" id="tenure amt" placeholder="360"  style="text-align: center;">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+          <label for="tb1" class="sr-only"></label>
+          <input type="number" class="form-control" id="interestrate" placeholder="8.92"  style="text-align: center;">
+        </div><br>
+        <a href="form.html"><button  type="button" class="btn btn-primary" >Apply Now</button></a>
+       </div>
+       </div>
+       </div>
+      </div>
+      <div class="container">
+        <h4>Home Loans</h4>
+        <p>Our affordable and flexible home loans are designed to take you closer to your dream home. Our Home Loan affordability calculator is based on your requirements, such as tenure, loan amount and interest rates to give you an estimate of your EMI.</p>
+        <p></p>Loans:</p>
+         <div class="row my-5">
+           <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Top Up Home Loan</h5>
+                <p class="card-text">
+                  <ul>
+                    <li>Features</li>  
+                     <p>Top Up loan for existing Home Loan customers</p>
+                    <li>Loan Amount</li>
+                    <p>Upto Rs. 50 lakhs</p>
+                      <li>Maximum Tenure</li>
+                      <p>Same as outstanding Home Loan tenure</p>
+                </ul>
+                  </p>
+                <a href="#" class="card-link">Explore More  </a>
+                <a href="form.html"><button  type="button" class="btn btn-primary">Apply </button></a>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Power Advantage Home Loans</h5>
+                  <p class="card-text">
+                    <ul>
+                      <li>Features</li>  
+                       <p>Loans with 2 years fixed + floating rate of interest.</p>
+                      <li>Loan Amount</li>
+                      <p>Up to Rs. 5 Crore</p>
+                        <li>Maximum Tenure</li>
+                        <p>30 years</p>
+                  </ul>
+                    </p>
+                  <a href="#" class="card-link">Explore More</a>
+                  <a href="form.html"><button  type="button" class="btn btn-primary">Apply </button></a>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Fast Forward Home Loan</h5>
+                    <p class="card-text">
+                      <ul>
+                        <li>Features</li>  
+                         <p>12 EMIs off on regular payments of EMIs.</p>
+                        <li>Loan Amount</li>
+                        <p>Rs. 30 lakhs to Rs. 5 Crore</p>
+                          <li>Maximum Tenure</li>
+                          <p>30 years</p>
+                    </ul>
+                      </p>
+                    <a href="#" class="card-link">Explore More</a>
+                    <a href="form.html"><button  type="button" class="btn btn-primary">Apply</button>
+</a>                  </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="row my-4">
+            <div class="col-md-4">
+             <div class="card" style="width: 18rem;">
+               <div class="card-body">
+                 <h5 class="card-title">QuikPay Home Loan</h5>
+                 <p class="card-text">
+                   <ul>
+                     <li>Features</li>  
+                      <p>Affordable home loans for both Salaried and Self Employed customers.</p>
+                     <li>Loan Amount</li>
+                     <p>URs. 1 lakh to Rs. 35 lakhs</p>
+                       <li>Maximum Tenure</li>
+                       <p>30 years Available on a minimum combined family income of Rs. 8000 p.m.</p>
+                 </ul>
+                   </p>
+                 <a href="#" class="card-link">Explore More</a>
+                 <a href="form.html"><button  type="button" class="btn btn-primary">Apply </button></a>
+               </div>
+             </div>
+           </div>
+             <div class="col-md-4">
+               <div class="card" style="width: 18rem;">
+                 <div class="card-body">
+                   <h5 class="card-title">Shubh Aarambh Home Loan</h5>
+                   <p class="card-text">
+                     <ul>
+                       <li>Features</li>  
+                        <p>Attractive fixed and floating interest rates..</p>
+                       <li>Loan Amount</li>
+                       <p>Up to Rs. 5 Crore</p>
+                         <li>Maximum Tenure</li>
+                         <p>30 years</p>
+                   </ul>
+                     </p>
+                   <a href="#" class="card-link">Explore More</a>
+                   <a href="form.html"><button  type="button" class="btn btn-primary">Apply </button></a>
+                 </div>
+               </div>
+             </div>
+               <div class="col-md-4">
+                 <div class="card" style="width: 18rem;">
+                   <div class="card-body">
+                     <h5 class="card-title">Pradhan Mantri Awas Yojna</h5>
+                     <p class="card-text">
+                       <ul>
+                         <li>Features</li>  
+                          <p>Interest subsidy on housing loans to eligible beneficiaries belonging to the EWS, LIG and MIG segment for construction or purchase of their first homes.</p>
+                         <li>Loan Amount</li>
+                         <p>Subject to applicant's eligibility</p>
+                           <li>Maximum Tenure</li>
+                           <p>30 years, with subsidy up to 20 years of loan</p>
+                     </ul>
+                       </p>
+                     <a href="#" class="card-link">Explore More</a>
+                     <a href="form.html"><button  type="button" class="btn btn-primary">Apply</button>
+</a>                   </div>
+                 </div>
+             </div>
+           </div>
+        </div>
+        <br>
+
+    <div class="row p-4" style="background:lightgrey">
+        <div class="col-md-12">
+            Copyright © 2020 Apna Bank
+            <div style="float: right;">
+                <a href="#" >Disclaimer </a> | 
+                <a href="#" >Privacy Policy </a> | 
+                <a href="#" >Code of Commitment </a> 
+            </div>
+            
+        </div>
+    </div>
+
+
+   
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
